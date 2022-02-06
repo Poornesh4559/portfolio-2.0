@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  background: rgb(10, 10, 10);
+  -webkit-backface-visibility: hidden; /* Safari */
+backface-visibility: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+
+.spacer {
+  
+  height: 100vh;
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(240, 241, 255);
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+.construction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+
+}
+.education{
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+body{
+  font-size: 3.2vw;
+}
+
+}
+
+h1{
+  text-shadow:  4px 4px 10px #272424,
+  -4px -4px 10px #3a3636;
+}
+

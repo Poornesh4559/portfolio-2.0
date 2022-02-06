@@ -1,0 +1,51 @@
+
+
+
+.mouse{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.mouseBody{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    width:30px;
+    height: 60px;
+    border-radius: 20px;
+    border: 5px black ;
+    background-image: linear-gradient(black,purple);
+    box-shadow:  4px 4px 10px #272424,
+             -4px -4px 10px #3a3636;
+}
+.scrollButton{
+    background-image: linear-gradient(purple,black);
+    width:8px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.mouseArrows{
+    width: 30px;
+    height: 50px;
+    background-image: linear-gradient(black,purple);
+
+    clip-path: polygon(100% 34%, 50% 100%, 0 34%, 0 18%, 50% 82%, 100% 18%);
+
+}
+.mouseArrows1{
+    position: relative;
+    top: -25px;
+    width: 30px;
+    height: 50px;
+    background-image: linear-gradient(black,purple);
+    
+    clip-path: polygon(100% 34%, 50% 100%, 0 34%, 0 18%, 50% 82%, 100% 18%);
+
+}
