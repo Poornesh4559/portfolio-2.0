@@ -9,6 +9,7 @@ body{
 }
 
 .container{
+    margin: 2em;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -33,7 +34,32 @@ button {
   margin-top: 15px;
   text-align: center;
 }
-a{
+/* a{
     text-decoration: none;
     color: white;
-}
+    text-decoration-color: rgb(240, 241, 255)
+} */
+
+a:link {
+    color: rgb(240, 241, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  /* a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  } */
